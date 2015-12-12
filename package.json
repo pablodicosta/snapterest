@@ -1,0 +1,25 @@
+{
+  "name": "snapterest",
+  "version": "1.0.0",
+  "description": "NodeJS, React.js and Twitter API sample app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablodicosta/snapterest.git"
+  },
+  "author": "pablodicosta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablodicosta/snapterest/issues"
+  },
+  "homepage": "https://github.com/pablodicosta/snapterest#readme",
+  "devDependencies": {
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
