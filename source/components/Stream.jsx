@@ -7,7 +7,7 @@ var Stream = React.createClass({
 
   getInitialState: function() {
     return {
-      tweet: TweetStore.getTweet();
+      tweet: TweetStore.getTweet()
     };
   },
 
@@ -21,7 +21,7 @@ var Stream = React.createClass({
 
   onTweetChange: function() {
     this.setState({
-      tweet: TweetStore.getTweet();
+      tweet: TweetStore.getTweet()
     });
   },
 

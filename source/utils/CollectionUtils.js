@@ -1,7 +1,7 @@
-function getNumberOfTweetsInCollection(collection) {
-  var TweetUtils = require('./TweetUtils');
-  var listOfCollectionTweetIds = TweetUtils.getListOfTweetIds(collection);
+var TweetUtils = require('./TweetUtils');
 
+function getNumberOfTweetsInCollection(collection) {
+  var listOfCollectionTweetIds = TweetUtils.getListOfTweetIds(collection);
   return listOfCollectionTweetIds.length;
 }
 
